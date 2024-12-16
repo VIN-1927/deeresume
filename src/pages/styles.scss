@@ -19,22 +19,57 @@
         text-align: center; /* Center the text horizontally */
     }
 
+    // button {
+    //     position: absolute;
+    //     font-size: 2rem;
+    //     padding: 0.5rem 3rem;
+    //     background-color: #FFFFFF;
+    //     color: black;
+    //     border: none;
+    //     border-radius: 40%;
+    //     top: 20px;
+    //     right: 20px;
+    //     z-index: 1;
+    //     cursor: pointer; /* Add a pointer cursor for better UX */
+
+    //     &:hover {
+    //         outline: none;
+    //         box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+    //     }
+    // }
+
     button {
         position: absolute;
         font-size: 2rem;
-        padding: 1rem 2rem;
-        background-color: #007bff;
+        padding: 0.5rem 3rem;
+        background-color: #FFFFFF;
         color: black;
         border: none;
-        border-radius: 50%;
+        border-radius: 40%;
         top: 20px;
         right: 20px;
         z-index: 1;
-        cursor: pointer; /* Add a pointer cursor for better UX */
-
-        &:hover {
-            outline: none;
-            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+        cursor: pointer;
+        animation: glow 2s infinite alternate; /* Add animation to the button */
+    }
+    
+    @keyframes glow {
+        0% {
+            box-shadow: 0 0 10px 5px blue;
+        }
+        50% {
+            box-shadow: 0 0 20px 10px yellow;
+        }
+        100% {
+            box-shadow: 0 0 10px 5px green;
         }
     }
+    
+    /* Optional hover effect to amplify the glow */
+    button:hover {
+        outline: none;
+        box-shadow: 0 0 30px 15px rgba(255, 0, 0, 0.8), 0 0 40px 20px rgba(118, 185, 18, 0.6);
+    }
+    
+
 }

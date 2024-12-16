@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Footer from '../components/SocialIcon'
+
 
 const Contact = () => {
   return (
@@ -16,7 +16,7 @@ const Contact = () => {
       </h3>
       <br /><br />
       <div className="contact-container">
-        <div className="box" style={{backgroundColor:"#FFFFC1"}}>
+        <div className="box" style={{backgroundColor:"#FFFF4C"}}>
           <i className="bi bi-envelope-open-fill fa-3x"></i>
           <p className="font">desilvadeepthi@yahoo.com.au</p>
         </div>
@@ -24,16 +24,8 @@ const Contact = () => {
           <i className="bi bi-telephone-inbound-fill fa-3x"></i>
           <p className="font">0418 845 259</p>
         </div>
-        <div className="box" style={{ backgroundColor: "#FFFF4C" }}>
-   
- 
-  
-     <Footer />
- 
-</div>
-
         
-      </div>
+     </div>
     </div>
   
   );
