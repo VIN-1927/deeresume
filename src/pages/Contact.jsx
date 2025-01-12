@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-
+import Star from "./Star";
 
 const Contact = () => {
   return (
@@ -24,8 +24,9 @@ const Contact = () => {
           <i className="bi bi-telephone-inbound-fill fa-3x"></i>
           <p className="font">0418 845 259</p>
         </div>
-        
+       
      </div>
+     <Star/>
     </div>
   
   );
