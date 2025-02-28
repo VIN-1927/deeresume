@@ -26,6 +26,7 @@ const menuItems = [
     subMenus: [
       { name: "Qualifications", to: "/content/qualifications" },
       { name: "Experience", to: "/content/experience" },
+      { name: "InterpersonalSkills", to: "/content/Inter" },
     ],
   },
 

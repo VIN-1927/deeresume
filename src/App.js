@@ -13,6 +13,7 @@ import Home from "./pages/Home";
 import CoverPage from "./pages/CoverPage";
 import Resume from "./pages/Content/Resume";
 import Next from './pages/Next';
+import InterpersonalSkills from './pages/Content/interpersonalSkills'
 
 function App() {
   const [inactive, setInactive] = useState(false);
@@ -46,6 +47,7 @@ function App() {
           <Route path='/content' element={<Content />}></Route>
           <Route path='/content/experience' element={<Experience />}></Route>
           <Route path='/content/qualifications' element={<Qualifications />}></Route>
+          <Route path='/content/inter' element={<InterpersonalSkills />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
           <Route path='/content/resume' element={<Resume />}></Route>
           <Route path='*' element={<NotFound />}></Route>

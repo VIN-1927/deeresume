@@ -33,19 +33,19 @@ const Experience = () => {
         <p>HTML</p>
       </div>
       <div className="bar">
-        <div className="skills css">85%</div>
+        <div className="skills css">90%</div>
         <p>CSS</p>
       </div>
       <div className="bar">
-        <div className="skills js">80%</div>
+        <div className="skills js">90%</div>
         <p>JS</p>
       </div>
       <div className="bar">
-        <div className="skills react">80%</div>
+        <div className="skills react">93%</div>
         <p>REACT</p>
       </div>
       <div className="bar">
-        <div className="skills docker">75%</div>
+        <div className="skills docker">85%</div>
         <p>DOCKER & OTHER Technologies</p>
       </div>
     </div>
