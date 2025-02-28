@@ -426,3 +426,20 @@ body {
   color:#FFFF33;
 }
 
+.carousel-container{
+  position: fixed;
+  bottom: 10px;
+  left:90%;
+  right:10px; 
+  transform: translateX(-75%);
+  width:100px;
+  height:100px;
+  overflow: hidden;
+ 
+
+}
+.carousel-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
