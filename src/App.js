@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import SideMenu from "./components/SideMenu";
 
-
+ 
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
@@ -15,7 +15,7 @@ import CoverPage from "./pages/CoverPage";
 import Resume from "./pages/Content/Resume";
 import Next from './pages/Next';
 import InterpersonalSkills from './pages/Content/interpersonalSkills'
-
+import Myself from './pages/Myself'
 function App() {
   const [inactive, setInactive] = useState(false);
   const [fullScreen, setFullScreen] = useState(false);
@@ -53,6 +53,7 @@ function App() {
           <Route path='/content/resume' element={<Resume />}></Route>
           <Route path='*' element={<NotFound />}></Route>
           <Route path='/next' element={<Next />}></Route>
+          <Route path='/myself' element={<Myself />}></Route>
         </Routes>
       </div>
     </div>

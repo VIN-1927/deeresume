@@ -1,6 +1,6 @@
 import React from 'react'
 import Avatar from '../../assets/image.png';
-
+import {Link} from 'react-router-dom'
 
 const  Footer = () => {
   return (
@@ -12,7 +12,7 @@ const  Footer = () => {
         </div>
 
         <div className="user-info">
-          <h5> Deepthi de Silva</h5>
+         <Link to='/myself'> <h5> Deepthi de Silva</h5></Link>
           <p>desilvadeepthi@yahoo.com.au</p>
         </div>
       </div>

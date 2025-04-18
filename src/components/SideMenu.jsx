@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import logo from "../assets/kids.png";
 // import Avatar from '../assets/avatar.jpg';
 import MenuItem from "./MenuItem";
-import Footer from "../components/layout/footer"
+import Footer from "./layout/footer"
 
 const menuItems = [
   {
@@ -17,6 +17,7 @@ const menuItems = [
     to: "/about",
     iconClassName: "bi bi-file-person-fill",
   },
+
 
   {
     name: "Content",
