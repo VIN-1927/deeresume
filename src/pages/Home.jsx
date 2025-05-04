@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Hero from "../components/common/Hero";
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
-import RippleStars from "../components/RippleStars";
+
 import Cheetah from '../assets/animal/cheetah.jpeg';
 import Lion from '../assets/animal/lion.jpeg'
 import Tiger from '../assets/animal/tiger.jpeg'
