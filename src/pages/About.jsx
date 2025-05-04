@@ -17,6 +17,7 @@ const About = () => {
     <div className="header p-3">
       <div className="row justify-content-center">
         <div className="col-sm-8 col-md-7 py-4">
+        
           <h4
             style={{
               textShadow:
@@ -25,6 +26,7 @@ const About = () => {
           >
             <strong>ABOUT ME</strong>
           </h4>
+          
           <div className="banner">
             <p
               style={{

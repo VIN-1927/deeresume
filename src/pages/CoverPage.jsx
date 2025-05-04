@@ -1,6 +1,7 @@
 import React from "react";
  import "./styles.scss";
  import Image from '../pages/image.jsx'
+ import RippleStart from '../components/RippleStars' 
 
  
 
@@ -11,6 +12,7 @@ function CoverPage({ onShow, handleOnShow }) {
 
   return (
     <div className={coverPageClass}>
+    {onShow && <RippleStart/>}
  <Image />
       <button onClick={handleOnShow}>
         {onShow ? "Hello" : "Exit"}

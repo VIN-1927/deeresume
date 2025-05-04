@@ -1,12 +1,13 @@
 import React from "react";
 import "../App.css";
 import Star from "./Star";
- 
+import ConRip from '../components/ConRip' 
 
 const Contact = () => {
   return (
   
     <div className="rectangles">
+   <ConRip/>
       <h3
         style={{
           textShadow:
@@ -16,6 +17,7 @@ const Contact = () => {
         CONTACT ME
       </h3>
       <br /><br />
+     
       <div className="contact-container">
         <div className="box" style={{backgroundColor:"#FFFF4C"}}>
           <i className="bi bi-envelope-open-fill fa-3x"></i>
